@@ -1,10 +1,10 @@
-# 📈 Volatility Hedging under Stochastic Volatility: Heston & GARCH
+# Volatility Hedging under Stochastic Volatility: Heston & GARCH
 
 This project simulates and compares hedging strategies under two popular stochastic volatility frameworks: **Heston** and **GARCH(1,1)** models. The aim is to evaluate and visualize hedging effectiveness through simulated P&L distributions using delta and vega hedging techniques.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Simulate asset price paths under the Heston and GARCH(1,1) models.
 - Implement delta and vega hedging strategies for European options.
@@ -13,7 +13,7 @@ This project simulates and compares hedging strategies under two popular stochas
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### 1. Heston Model
 - Mean-reverting stochastic volatility.
@@ -37,22 +37,19 @@ This project simulates and compares hedging strategies under two popular stochas
 
 ---
 
-## 📊 Visual Output
+## Visual Output
 
 ### Heston:
-![Figure 1](Heston_2.jpeg)
+![Figure 1](Heston.png)
 > Delta vs. Vega+Delta under Heston
 
-![Figure 2](Tab_heston.jpeg)
-> Statistics Table for Heston Hedging Strategies
-
 ### GARCH:
-![Figure 3](D919B8B3-AFC6-424F-955E-0C5834F1C211.png)
+![Figure 2](Garch.png)
 > Delta and Delta+Vega under GARCH
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - NumPy / Pandas / Matplotlib
@@ -61,19 +58,18 @@ This project simulates and compares hedging strategies under two popular stochas
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 ├── Final_GARCH_Heston.py   # Cleaned and modular simulation code
 ├── README.md               # Project documentation
-├── Heston_2.jpeg           # Histogram for Heston strategies
-├── Tab_heston.jpeg         # Table of P&L metrics
-├── D919B8B3-AFC6-424F-955E-0C5834F1C211.png # GARCH distribution
+├── Heston.png              # Histogram for Heston strategies
+├── Garch.png               # GARCH distribution
 ```
 
 ---
 
-## 📌 Author
+## Author
 
 Basile M'Couela  
 EDHEC – MSc Financial Engineering  
